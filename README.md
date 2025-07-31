@@ -4,10 +4,14 @@ It has a configurable keyboard button and path setting. When you press the keybo
 That's exactly what i did today. 
 
 # How to use
-Open terminal 
-Go to folders path with cd "filepath" (Write the path that you put the folder)
-Start the script with python emergency_button.py and hide the terminal
-Go crazy
+1-Open terminal 
+
+2-Go to folders path with cd "filepath" (Write the path that you put the folder)
+
+3-Start the script with python emergency_button.py and hide the terminal
+
+4-Go crazy
+
 
 (The terminal is supposed to be working in the background)
 
