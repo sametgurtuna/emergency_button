@@ -10,3 +10,7 @@ Start the script with python emergency_button.py and hide the terminal
 Go crazy
 
 (The terminal is supposed to be working in the background)
+
+# Requirements
+Python 3.7+
+keyboard module (pip install keyboard)
