@@ -9,4 +9,4 @@ Go to folders path with cd "filepath" (Write the path that you put the folder)
 Start the script with python emergency_button.py and hide the terminal
 Go crazy
 
-(The terminal is supposed to be open background)
+(The terminal is supposed to be working in the background)
