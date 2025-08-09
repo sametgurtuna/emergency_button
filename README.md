@@ -1,28 +1,24 @@
 # 🚨 Emergency Button
 
-I was getting bored during my internship and wanted to build something fun — but without getting caught slacking.  
-So I made **Emergency Button**.
+This project was originally created by **Mert** (mertpalaoglu1), who got bored during his internship and built this to have some fun without getting caught slacking.
 
-It lets you set a configurable hotkey and a file path.  
-When you press the hotkey, it instantly opens your chosen "work" file so you can pretend to be busy.  
-That's exactly what I did today. 😉
-
-> This project is a **fork of [mertpalaoglu1's original version](https://github.com/mertpalaoglu1/emergency_button)** — thanks for the idea and base code!
+I forked and improved it by adding configurable hotkey and file path settings, along with a modern UI and more flexible shortcut management.  
+Now you can set your own hotkey and file to open instantly whenever you need to "pretend working."
 
 ---
 
 ## 📌 How to Use
 
-1. **Open your terminal**
-2. Navigate to the project folder:
+1. **Open your terminal**  
+2. Navigate to the project folder:  
    ```bash
    cd "your-folder-path"
-   ```
-3. Start the script:
+   ```  
+3. Start the script:  
    ```bash
    python emergency_button.py
-   ```
-4. Hide the terminal window.
+   ```  
+4. Hide the terminal window.  
 5. **Go wild.**
 
 *(The terminal will keep running in the background while the hotkey listener stays active.)*
@@ -31,10 +27,18 @@ That's exactly what I did today. 😉
 
 ## 🛠 Requirements
 
-- **Python 3.7+**
-- **keyboard** module:
+- **Python 3.7+**  
+- **keyboard** module:  
   ```bash
   pip install keyboard
+  ```  
+- **PyQt6** (if you use the PyQt6 UI version):  
+  ```bash
+  pip install PyQt6
+  ```  
+- **customtkinter** (if you use the customtkinter UI version):  
+  ```bash
+  pip install customtkinter
   ```
 
 ---
