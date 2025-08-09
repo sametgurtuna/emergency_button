@@ -1,20 +1,40 @@
-# emergency_button
-I was very bored at my Intership and want to do something fun but also don't want to get caught slacking so I made this.
-It has a configurable keyboard button and path setting. When you press the keyboard button. It opens the "work" file path and you can pretend like your working that moment. 
-That's exactly what i did today. 
+# 🚨 Emergency Button
 
-# How to use
-1-Open terminal 
+I was getting bored during my internship and wanted to build something fun — but without getting caught slacking.  
+So I made **Emergency Button**.
 
-2-Go to folders path with cd "filepath" (Write the path that you put the folder)
+It lets you set a configurable hotkey and a file path.  
+When you press the hotkey, it instantly opens your chosen "work" file so you can pretend to be busy.  
+That's exactly what I did today. 😉
 
-3-Start the script with python emergency_button.py and hide the terminal
+> This project is a **fork of [mertpalaoglu1's original version](https://github.com/mertpalaoglu1/emergency_button)** — thanks for the idea and base code!
 
-4-Go crazy
+---
 
+## 📌 How to Use
 
-(The terminal is supposed to be working in the background)
+1. **Open your terminal**
+2. Navigate to the project folder:
+   ```bash
+   cd "your-folder-path"
+   ```
+3. Start the script:
+   ```bash
+   python emergency_button.py
+   ```
+4. Hide the terminal window.
+5. **Go wild.**
 
-# Requirements
-Python 3.7+
-keyboard module (pip install keyboard)
+*(The terminal will keep running in the background while the hotkey listener stays active.)*
+
+---
+
+## 🛠 Requirements
+
+- **Python 3.7+**
+- **keyboard** module:
+  ```bash
+  pip install keyboard
+  ```
+
+---
