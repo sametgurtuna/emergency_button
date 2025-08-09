@@ -47,7 +47,7 @@ Now you can set your own hotkey and file to open instantly whenever you need to 
 
 If you don’t want to install Python or dependencies, you can use the standalone executable version:
 
-1. Download the `emergency_button.exe` file from the [GitHub Releases](https://github.com/your-repo-link/releases).  
+1. Download the `emergency_button.exe` file from the [GitHub Releases]([https://github.com/your-repo-link/releases](https://github.com/sametgurtuna/emergency_button/releases)).  
 2. Run the `.exe` file (preferably **as Administrator** to enable hotkey support).  
 3. Configure your file path and hotkey in the UI window.  
 4. Hide the application window and press your configured hotkey anytime to instantly open your chosen file.  
